@@ -1948,6 +1948,23 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+	name: "libstagefrightdolby",
+	owner: "xiaomi",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libstagefrightdolby.so"],
+			shared_libs: ["libstagefright_softomx", "libstagefright_foundation-v33", "libutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
 	name: "libwfdcodecv4l2_proprietary",
 	owner: "xiaomi",
 	strip: {
