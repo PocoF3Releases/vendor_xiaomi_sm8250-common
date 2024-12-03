@@ -21,7 +21,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-futex: 1
 # ioctl calls are filtered via the selinux policy.
 ioctl: 1
 sched_yield: 1
@@ -71,7 +70,6 @@ madvise: 1
 # crash dump policy additions
 sigreturn: 1
 clock_gettime: 1
-futex: 1
 getpid: 1
 gettid: 1
 pipe2: 1
@@ -90,3 +88,4 @@ getgroups32: 1
 
 #video process sys
 inotify_add_watch: 1
+futex: 1
