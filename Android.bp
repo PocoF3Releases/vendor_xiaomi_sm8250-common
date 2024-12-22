@@ -5,10 +5,10 @@
 soong_namespace {
 	imports: [
 		"device/xiaomi/sm8250-common",
-        "hardware/qcom-caf/common/libqti-perfd-client",
+		"hardware/qcom-caf/common/libqti-perfd-client",
 		"hardware/qcom-caf/sm8250",
 		"hardware/qcom-caf/wlan",
-        "hardware/xiaomi",
+		"hardware/xiaomi",
 		"vendor/qcom/opensource/commonsys/display",
 		"vendor/qcom/opensource/commonsys-intf/display",
 		"vendor/qcom/opensource/dataservices",
@@ -7320,7 +7320,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libwfdnative.so"],
-			shared_libs: ["libinput_shim", "libandroid_runtime", "libui", "libinput", "libnativehelper", "libutils", "liblog", "libwfdclient", "libhidlbase", "libhidlmemory", "libbinder", "libgui", "android.hidl.base@1.0", "android.hidl.token@1.0-utils", "android.hardware.graphics.common@1.0", "android.hardware.graphics.bufferqueue@1.0", "android.hardware.graphics.bufferqueue@2.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libbinder_shim", "libinput_shim", "libandroid_runtime", "libui", "libinput", "libnativehelper", "libutils", "liblog", "libwfdclient", "libhidlbase", "libhidlmemory", "libbinder", "libgui", "android.hidl.base@1.0", "android.hidl.token@1.0-utils", "android.hardware.graphics.common@1.0", "android.hardware.graphics.bufferqueue@1.0", "android.hardware.graphics.bufferqueue@2.0", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
