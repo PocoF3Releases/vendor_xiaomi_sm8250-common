@@ -6743,7 +6743,7 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm64: {
 			srcs: ["proprietary/system_ext/lib64/libwfdservice.so"],
-			shared_libs: ["liblog", "libutils", "libcutils", "libbinder", "libgui", "libwfdsinksm", "libmmosal", "libwfdcommonutils", "libwfdconfigutils", "libinput", "libwfdmminterface", "libmedia_helper", "libaudioclient", "libaudiofoundation", "audioclient-types-aidl-cpp", "android.media.audio.common.types-V3-cpp", "libwfdmmsrc_system", "libwfdavenhancements", "libhidlbase", "vendor.qti.hardware.wifidisplaysession@1.0", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["liblog", "libutils", "libcutils", "libbinder", "libgui", "libwfdsinksm", "libmmosal", "libwfdcommonutils", "libwfdconfigutils", "libinput", "libwfdmminterface", "libmedia_helper", "libaudioclient", "libaudiofoundation", "audioclient-types-aidl-cpp", "android.media.audio.common.types-V4-cpp", "libwfdmmsrc_system", "libwfdavenhancements", "libhidlbase", "vendor.qti.hardware.wifidisplaysession@1.0", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "64",
