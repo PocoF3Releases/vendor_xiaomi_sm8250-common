@@ -20,18 +20,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/sm8250-common/proprietary/system_ext/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/wfd-system-ext-privapp-permissions-qti.xml \
     vendor/xiaomi/sm8250-common/proprietary/system_ext/etc/seccomp_policy/wfdservice64.policy:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/seccomp_policy/wfdservice64.policy \
     vendor/xiaomi/sm8250-common/proprietary/system_ext/etc/wfdconfigsink.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/wfdconfigsink.xml \
-    vendor/xiaomi/sm8250-common/proprietary/system_ext/media/audio/ui/popup_cangmen_down.ogg:$(TARGET_COPY_OUT_SYSTEM_EXT)/media/audio/ui/popup_cangmen_down.ogg \
-    vendor/xiaomi/sm8250-common/proprietary/system_ext/media/audio/ui/popup_cangmen_up.ogg:$(TARGET_COPY_OUT_SYSTEM_EXT)/media/audio/ui/popup_cangmen_up.ogg \
-    vendor/xiaomi/sm8250-common/proprietary/system_ext/media/audio/ui/popup_chilun_down.ogg:$(TARGET_COPY_OUT_SYSTEM_EXT)/media/audio/ui/popup_chilun_down.ogg \
-    vendor/xiaomi/sm8250-common/proprietary/system_ext/media/audio/ui/popup_chilun_up.ogg:$(TARGET_COPY_OUT_SYSTEM_EXT)/media/audio/ui/popup_chilun_up.ogg \
-    vendor/xiaomi/sm8250-common/proprietary/system_ext/media/audio/ui/popup_jijia_down.ogg:$(TARGET_COPY_OUT_SYSTEM_EXT)/media/audio/ui/popup_jijia_down.ogg \
-    vendor/xiaomi/sm8250-common/proprietary/system_ext/media/audio/ui/popup_jijia_up.ogg:$(TARGET_COPY_OUT_SYSTEM_EXT)/media/audio/ui/popup_jijia_up.ogg \
-    vendor/xiaomi/sm8250-common/proprietary/system_ext/media/audio/ui/popup_mofa_down.ogg:$(TARGET_COPY_OUT_SYSTEM_EXT)/media/audio/ui/popup_mofa_down.ogg \
-    vendor/xiaomi/sm8250-common/proprietary/system_ext/media/audio/ui/popup_mofa_up.ogg:$(TARGET_COPY_OUT_SYSTEM_EXT)/media/audio/ui/popup_mofa_up.ogg \
-    vendor/xiaomi/sm8250-common/proprietary/system_ext/media/audio/ui/popup_muqin_down.ogg:$(TARGET_COPY_OUT_SYSTEM_EXT)/media/audio/ui/popup_muqin_down.ogg \
-    vendor/xiaomi/sm8250-common/proprietary/system_ext/media/audio/ui/popup_muqin_up.ogg:$(TARGET_COPY_OUT_SYSTEM_EXT)/media/audio/ui/popup_muqin_up.ogg \
-    vendor/xiaomi/sm8250-common/proprietary/system_ext/media/audio/ui/popup_yingyan_down.ogg:$(TARGET_COPY_OUT_SYSTEM_EXT)/media/audio/ui/popup_yingyan_down.ogg \
-    vendor/xiaomi/sm8250-common/proprietary/system_ext/media/audio/ui/popup_yingyan_up.ogg:$(TARGET_COPY_OUT_SYSTEM_EXT)/media/audio/ui/popup_yingyan_up.ogg \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/cacert_location.pem:$(TARGET_COPY_OUT_VENDOR)/etc/cacert_location.pem \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/cne/mwqem.conf:$(TARGET_COPY_OUT_VENDOR)/etc/cne/mwqem.conf \
     vendor/xiaomi/sm8250-common/proprietary/vendor/etc/cne/profileMwqem.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cne/profileMwqem.xml \
