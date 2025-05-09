@@ -184,14 +184,19 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.bluetooth_audio@2.0-impl \
     libFileMux_proprietary \
     libOmxAacDec \
+    libOmxAacEnc \
     libOmxAlacDec \
     libOmxAmrDec \
+    libOmxAmrEnc \
     libOmxAmrwbplusDec \
     libOmxApeDec \
     libOmxDsdDec \
     libOmxEvrcDec \
+    libOmxEvrcEnc \
     libOmxG711Dec \
+    libOmxG711Enc \
     libOmxQcelp13Dec \
+    libOmxQcelp13Enc \
     libOmxVideoDSMode \
     libOmxVpp \
     libOmxWmaDec \
