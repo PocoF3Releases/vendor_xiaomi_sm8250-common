@@ -241,6 +241,7 @@ PRODUCT_PACKAGES += \
     libssrec \
     libstagefright_soft_ac4dec \
     libstagefright_soft_ddpdec \
+    libstagefrightdolby \
     libwfdcodecv4l2_proprietary \
     libwfdcommonutils_proprietary \
     libwfdconfigutils_proprietary \
