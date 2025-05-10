@@ -257,6 +257,9 @@ PRODUCT_PACKAGES += \
     libasphere \
     libhwdap \
     libmisoundfx \
+    libqcbassboost \
+    libqcreverb \
+    libqcvirt \
     libshoebox \
     libswgamedap \
     libswvqe \
