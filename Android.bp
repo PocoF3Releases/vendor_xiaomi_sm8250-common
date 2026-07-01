@@ -13358,6 +13358,8 @@ cc_prebuilt_library_shared {
                 "proprietary/system_ext/lib64/libwfdmmsrc_system.so",
             ],
             shared_libs: [
+                "libgui_shim",
+                "libaudiobase",
                 "libbinder",
                 "libmmosal",
                 "liblog",
@@ -13475,6 +13477,7 @@ cc_prebuilt_library_shared {
                 "proprietary/system_ext/lib64/libwfdservice.so",
             ],
             shared_libs: [
+                "libaudiobase",
                 "liblog",
                 "libutils",
                 "libcutils",
@@ -13490,7 +13493,7 @@ cc_prebuilt_library_shared {
                 "libaudioclient",
                 "libaudiofoundation",
                 "audioclient-types-aidl-cpp",
-                "android.media.audio.common.types-V4-cpp",
+                "android.media.audio.common.types-V5-cpp",
                 "libwfdmmsrc_system",
                 "libwfdavenhancements",
                 "libhidlbase",
