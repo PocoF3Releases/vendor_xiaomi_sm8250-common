@@ -15,6 +15,7 @@ service touchfeature-hal-1-0 /vendor/bin/hw/vendor.xiaomi.hardware.touchfeature@
     onrestart restart touchfeature
 
 service toucheventcheck /vendor/bin/toucheventcheck
+    disabled
     class main
     user root
     group system
