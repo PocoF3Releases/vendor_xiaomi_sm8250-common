@@ -159,7 +159,6 @@ PRODUCT_PACKAGES += \
     libdiag \
     libfastcvdsp_stub \
     libfastcvopt \
-    libgpudataproducer \
     libgsl \
     libllvm-glnext \
     libllvm-qcom \
@@ -340,6 +339,7 @@ PRODUCT_PACKAGES += \
     libgame_enhance \
     libgdtap \
     libgps.utils \
+    libgpudataproducer \
     libhdr_tm \
     libhexagon_nn_stub \
     libhta_hexagon_runtime \
